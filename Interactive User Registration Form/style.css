@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(45deg,rgb(67, 24, 176),rgb(199, 235, 235));
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color:transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.745);
+}
+
+
+fieldset {
+    background-color: #ffffffbd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+legend {
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color:black;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+input[type="checkbox"]{
+    margin-right: 5px;
+    transform: scale(2);
+}
+
+a{
+    color: #0074d9;
+    text-decoration: none;
+}
+
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #2421b7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
